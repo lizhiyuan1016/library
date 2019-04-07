@@ -16,7 +16,8 @@ public class Reader {   //读者信息类
     private String ISBN;//读者编号
     private Date bztime;//办证日期
 
-    public Reader(String name, String sex, String age, String identityCard, Date date, String maxNum, String tel, Double keepMoney, int zj, String zy, String ISBN, Date bztime) {
+    public Reader(String name, String sex, String age, String identityCard, Date date,
+                  String maxNum, String tel, Double keepMoney, int zj, String zy, String ISBN, Date bztime) {
         this.name = name;
         this.sex = sex;
         this.age = age;
